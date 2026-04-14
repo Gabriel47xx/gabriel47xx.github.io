@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Adicione o título da sua página aqui -->
+    <title>Portfólio | Profissional de TI</title>
+    <!-- Importando fonte moderna (Inter e Fira Code) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;700&family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navegação -->
+    <nav class="navbar">
+        <div class="logo">
+            <!-- Insira seu logo ou nome curto aqui -->
+            <span></span>Dev.Gabriel<span>/></span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home">Início</a></li>
+            <li><a href="#about">Sobre</a></li>
+            <li><a href="#skills">Habilidades</a></li>
+            <li><a href="#projects">Projetos</a></li>
+            <li><a href="#contact">Contato</a></li>
+        </ul>
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </nav>
+
+    <!-- Seção Principal (Hero) -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <p class="greeting">Olá, mundo! Eu sou</p>
+            <!-- Insira seu nome completo aqui -->
+            <h1 class="name">Gabriel Rezende</h1>
+            <!-- Insira seu cargo ou especialidade aqui (ex: Desenvolvedor Full Stack, Engenheiro de Dados) -->
+            <h2 class="title" id="typewriter">Gestor da T.I.</h2>
+            
+            <!-- Resumo curto de 1 a 2 linhas -->
+            <p class="description">Construindo soluções escaláveis e experiências digitais incríveis.</p>
+            
+            <div class="cta-buttons">
+                <!-- Link para o seu currículo e repositório (ex: GitHub) -->
+                <a href="#projects" class="btn primary">Ver Projetos</a>
+                <a href="#" class="btn secondary">Baixar CV</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Sobre Mim -->
+    <section id="about" class="section about">
+        <div class="container fade-in">
+            <h2 class="section-title">Sobre Mim</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <!-- Insira o texto sobre você, sua experiência, formação e paixões na TI -->
+                    <p>Sou um profissional de Tecnologia da Informação apaixonado por resolver problemas complexos com código limpo e eficiente. Tenho experiência em desenvolvimento de software, infraestrutura e metodologias ágeis.</p>
+                    <p>Sempre em busca de novos desafios e focado no aprendizado contínuo para acompanhar as evoluções do mercado.</p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat">
+                        <!-- Anos de experiência -->
+                        <h3>3+</h3>
+                        <p>Anos de Experiência</p>
+                    </div>
+                    <div class="stat">
+                        <!-- Projetos concluídos -->
+                        <h3>10+</h3>
+                        <p>Projetos Entregues</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção de Habilidades (Skills) -->
+    <section id="skills" class="section skills">
+        <div class="container fade-in">
+            <h2 class="section-title">Habilidades Técnicas</h2>
+            <div class="skills-grid">
+                <!-- Adicione ou remova as tecnologias que você domina -->
+                <div class="skill-card">
+                    <h3>Frontend</h3>
+                    <p>HTML, CSS, JavaScript, React, Vue.js</p>
+                </div>
+                <div class="skill-card">
+                    <h3>Backend</h3>
+                    <p>Node.js, Python, Java, SQL, NoSQL</p>
+                </div>
+                <div class="skill-card">
+                    <h3>DevOps & Cloud</h3>
+                    <p>Docker, AWS, CI/CD, Linux</p>
+                </div>
+                <div class="skill-card">
+                    <h3>Ferramentas</h3>
+                    <p>Git, GitHub, VS Code, Jira</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção de Projetos -->
+    <section id="projects" class="section projects">
+        <div class="container fade-in">
+            <h2 class="section-title">Projetos em Destaque</h2>
+            <div class="projects-grid">
+                <!-- Projeto 1 -->
+                <div class="project-card">
+                    <div class="project-content">
+                        <!-- Título do projeto -->
+                        <h3>Sistema de Gestão</h3>
+                        <!-- Descrição do projeto -->
+                        <p>Uma aplicação full-stack desenvolvida para otimizar os processos internos de uma empresa de logística.</p>
+                        <!-- Tecnologias usadas -->
+                        <div class="tech-stack">
+                            <span>React</span>
+                            <span>Node.js</span>
+                            <span>PostgreSQL</span>
+                        </div>
+                        <!-- Links do projeto -->
+                        <div class="project-links">
+                            <a href="#" target="_blank">Código Fonte</a>
+                            <a href="#" target="_blank">Deploy</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Projeto 2 -->
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3>API de Monitoramento</h3>
+                        <p>Microsserviço criado para monitorar o status de servidores em tempo real e enviar alertas via Telegram.</p>
+                        <div class="tech-stack">
+                            <span>Python</span>
+                            <span>Docker</span>
+                            <span>Redis</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" target="_blank">Código Fonte</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Você pode copiar e colar as divs "project-card" para adicionar mais projetos -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção de Contato -->
+    <section id="contact" class="section contact">
+        <div class="container fade-in">
+            <h2 class="section-title">Contato</h2>
+            <p class="contact-text">Estou disponível para novas oportunidades e desafios. Se quiser bater um papo, mande uma mensagem!</p>
+            
+            <div class="contact-info">
+                <!-- Adicione seus links reais nas propriedades href -->
+                <a href="mailto:https://www.gabrielrezende565@gmail.com" class="contact-btn">Email</a>
+                <a href="https://www.linkedin.com/in/gabriel-miranda-developer/" target="_blank" class="contact-btn">LinkedIn</a>
+                <a href="https://github.com/Gabriel47xx" target="_blank" class="contact-btn">GitHub</a>
+            </div>
+            
+            <!-- Opcional: Formulário de contato simples -->
+            <form class="contact-form">
+                <input type="text" placeholder="Nome" required>
+                <input type="email" placeholder="Email" required>
+                <textarea placeholder="Sua mensagem" rows="5" required></textarea>
+                <button type="submit" class="btn primary">Enviar Mensagem</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2026 Seu Nome. Design minimalista focando em código limpo.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
