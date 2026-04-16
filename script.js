@@ -21,7 +21,7 @@ links.forEach(link => {
 // EFEITO MÁQUINA DE ESCREVER (TYPEWRITER)
 // =========================================
 // Insira aqui as frases ou cargos que deseja que fiquem alternando na seção inicial
-const words = ["Desenvolvedor Frontend", "Gestor de TI"];
+const words = ["Desenvilvedor Full Stack", "Gestor de TI"];
 let i = 0;
 let timer;
 
