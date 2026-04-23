@@ -139,11 +139,31 @@ ul {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 0 5%;
+    padding: 100px 5% 0 5%; /* Adicionado padding-top para não sobrepor com a navbar */
 }
 
 .hero-content {
     max-width: 800px;
+}
+
+/* Espaço da Foto de Perfil */
+.profile-photo-wrapper {
+    margin-bottom: 25px;
+}
+
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid var(--primary-color);
+    box-shadow: 0 0 20px var(--primary-dim);
+    transition: var(--transition);
+}
+
+.profile-photo:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 30px rgba(0, 255, 102, 0.4);
 }
 
 .greeting {
